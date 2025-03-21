@@ -15,11 +15,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.json:json:20230227'
-    compileOnly 'net.kyori:adventure-api:4.16.0'
-    compileOnly 'org.jetbrains:annotations:24.0.1'
+    implementation 'org.json:json:20240303'
+    compileOnly 'net.kyori:adventure-api:4.19.0'
+    compileOnly 'org.jetbrains:annotations:26.0.2'
 
-    testImplementation 'net.kyori:adventure-platform-bukkit:4.3.2'
+    testImplementation 'net.kyori:adventure-platform-bukkit:4.3.4'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
 }
